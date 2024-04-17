@@ -7,17 +7,20 @@
     tools:context=".MainActivity">
 
     <TextView
+
+
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aplicativo Lista VIP Curso Android"
-        android:textSize="22dp"
+        android:text="@string/txtTitulo"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.091" />
+        app:layout_constraintVertical_bias="0.051" />
 
     <EditText
         android:id="@+id/inputNome"
@@ -26,11 +29,12 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Primeiro Nome"
+        android:text="@string/primeiro_nome"
         app:layout_constraintBottom_toTopOf="@+id/inputSobrenome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/inputNomeCurso"
@@ -39,12 +43,12 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Sobrenome"
+        android:text="@string/sobrenome"
         app:layout_constraintBottom_toTopOf="@+id/inputTelefone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.865" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
         android:id="@+id/inputTelefone"
@@ -53,11 +57,12 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Nome do Curso Desejado"
+        android:text="@string/nome_do_curso_desejado"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.43" />
 
     <EditText
         android:id="@+id/inputSobrenome"
@@ -66,19 +71,19 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Telefone de Contato"
+        android:text="@string/telefone_de_contato"
         app:layout_constraintBottom_toTopOf="@+id/inputNomeCurso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/btnLimpar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/corBotoes"
-        android:text="LIMPAR"
+        android:text="@string/limpar"
         app:layout_constraintBottom_toTopOf="@+id/btnLimpar3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
@@ -90,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@color/corBotoes"
-        android:text="SALVAR"
+        android:text="@string/salvar"
         app:layout_constraintBottom_toTopOf="@+id/btnLimpar3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.948"
@@ -103,7 +108,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:background="@color/corBotoes"
-        android:text="FINALIZAR"
+        android:text="@string/finalizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
