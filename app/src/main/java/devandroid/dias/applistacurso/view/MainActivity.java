@@ -1,8 +1,10 @@
-package devandroid.dias.applistacurso;
+package devandroid.dias.applistacurso.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import devandroid.dias.applistacurso.R;
 
 public class MainActivity extends AppCompatActivity {
 
