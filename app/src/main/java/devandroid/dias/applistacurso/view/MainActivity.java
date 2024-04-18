@@ -3,6 +3,7 @@ package devandroid.dias.applistacurso.view;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import devandroid.dias.applistacurso.R;
 import devandroid.dias.applistacurso.model.Pessoa;
@@ -21,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
         pessoa.setTelefoneContato("129942342");
         pessoa.getPrimeiroNome();
 
-        int parada = 0;
+        Log.i("toString", pessoa.toString());
+
 
 
     }
