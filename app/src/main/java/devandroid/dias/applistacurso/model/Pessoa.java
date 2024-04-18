@@ -1,5 +1,7 @@
 package devandroid.dias.applistacurso.model;
 
+import androidx.annotation.NonNull;
+
 public class Pessoa {
 
     //constructor
@@ -42,5 +44,15 @@ public class Pessoa {
 
     public void setTelefoneContato(String telefoneContato) {
         this.telefoneContato = telefoneContato;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Pessoa" +
+                "primeiroNome='" + primeiroNome + '\'' +
+                ", sobreNome='" + sobreNome + '\'' +
+                ", cursoDesejado='" + cursoDesejado + '\'' +
+                ", telefoneContato='" + telefoneContato + '\'';
     }
 }

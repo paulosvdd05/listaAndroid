@@ -19,6 +19,9 @@ public class MainActivity extends AppCompatActivity {
         pessoa.setSobreNome("Dias");
         pessoa.setCursoDesejado("Android");
         pessoa.setTelefoneContato("129942342");
+        pessoa.getPrimeiroNome();
+
+        int parada = 0;
 
 
     }
