@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        pessoa.setPrimeiroNome("Paulo");
+        pessoa.setSobreNome("Dias");
+        pessoa.setCursoDesejado("Android");
+        pessoa.setTelefoneContato("129942342");
 
 
     }
